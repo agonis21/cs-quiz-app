@@ -3,6 +3,20 @@ let app = express();
 let http = require('http');
 const cors = require("cors");
 app.use(cors());
+
+app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", "*");
+    res.setHeader(
+      "Access-Control-Allow-Methods",
+      "OPTIONS, GET, POST, PUT, PATCH, DELETE"
+    );
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
+    if (req.method === "OPTIONS") {
+      return res.sendStatus(200);
+    }
+    next();
+  });
+
 app.use(express.static('public'));
 
 const frontend_questions = require("./questions_frontend.json");
@@ -33,7 +47,7 @@ app.get("/backendquestions/random", (req, res) => {
 })
 
 
-app.listen(3000, () => {
+app.listen(process.env.port || 3000, () => {
     console.log("Server running on port 3000")
 })
 
