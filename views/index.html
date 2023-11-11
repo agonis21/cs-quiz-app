@@ -16,7 +16,7 @@
         var USERNAME = "";
 var USERTIME = "";
 var USER_CURR_QUESTION = 1; //starts at first question
-var USER_TOTAL_QUESTIONS = 9; 
+var USER_TOTAL_QUESTIONS = 5; 
 var USER_NUM_RIGHT = 0;
 var CURRENT_QUESTION = [];
 var QUESTIONS = [
@@ -359,7 +359,7 @@ function renderFinalResult(){
             <div class="hero-content text-center">
                 <div class="max-w-md">
                     <h1 class="text-4xl font-bold">How much do you know about web development?</h1>
-                    <p class="py-6">Take this 9 question quiz to find out! First, tell us your name and the type of quiz you want to take.</p>
+                    <p class="py-6">Take this quiz to find out! First, tell us your name and the type of quiz you want to take.</p>
 
                     <div class="card mx-auto mb-5 flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                         <form class="card-body">
@@ -475,7 +475,7 @@ function renderFinalResult(){
                         <ul class="steps steps-vertical">
                             {{#each data}}
                                 <li 
-                                    class="step {{#if isResponseCorrect}}step-success{{else}}step-error	{{/if}}"
+                                    class="text-left step {{#if isResponseCorrect}}step-success{{else}}step-error	{{/if}}"
                                     data-content="{{#if isResponseCorrect}}✓{{else}}✕{{/if}}"
                                     >
                                     {{questionTitle}}
