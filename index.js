@@ -3,6 +3,7 @@ let app = express();
 let http = require('http');
 const cors = require("cors");
 app.use(cors());
+const path = require("path");
 
 app.use((req, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -17,13 +18,13 @@ app.use((req, res, next) => {
     next();
   });
 
-app.use(express.static('public'));
+app.use(express.static('views'));
 
 const frontend_questions = require("./questions_frontend.json");
 const backend_questions = require("./questions_backend.json");
 
 app.get("/", (req, res) => {
-    res.sendFile("views/index.html", {root: __dirname });
+    res.sendFile(path.join(__dirname, '/views', 'index.html'));
 })
 
 app.get("/frontendquestions", (req, res) => {
