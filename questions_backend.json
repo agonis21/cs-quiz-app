@@ -174,6 +174,41 @@
     },
 
     {
+        "questionTitle": "In the context of backend development, what is an API?",
+        "isMultipleChoice": true,
+        "isMultipleImageChoice": false,
+        "isShortResponse": false,
+        "multipleChoiceOptions": [
+            {
+                "option": "React"
+            },
+            {
+                "option": "Django"
+            },
+            {
+                "option": "Express"
+            }
+        ],
+        "correctMultipleChoiceOption": "React",
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "",
+        "correctShortResponseAnswer": ""
+    },
+
+    {
         "questionTitle": "What protocol is commonly used for secure data transmission over the web?",
         "isMultipleChoice": false,
         "isMultipleImageChoice": false,

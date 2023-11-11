@@ -96,6 +96,44 @@
         "correctShortResponseAnswer": ""
     },
     {
+        "questionTitle": "What is the purpose of HTML in front-end development?",
+        "isMultipleChoice": true,
+        "isMultipleImageChoice": false,
+        "isShortResponse": false,
+        "multipleChoiceOptions": [
+            {
+                "option": "Adding styles to a webpage"
+            },
+            {
+                "option": "Defining the structure and content of a webpage"
+            },
+            {
+                "option": "Making a webpage interactive"
+            }
+        ],
+        "correctMultipleChoiceOption": "Defining the structure and content of a webpage",
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "",
+        "correctShortResponseAnswer": ""
+    },
+
+
+
+
+    {
         "questionTitle": "What is the 3-letter abbreviation of Extensible Markup Language?",
         "isMultipleChoice": false,
         "isMultipleImageChoice": false,
