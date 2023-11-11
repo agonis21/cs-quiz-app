@@ -127,7 +127,7 @@
         "correctShortResponseAnswer": "XML"
     },
     {
-        "questionTitle": "What is the tag for importing stylesheets?",
+        "questionTitle": "What is the tag for importing external stylesheets? Surround your answer with <brackets>",
         "isMultipleChoice": false,
         "isMultipleImageChoice": false,
         "isShortResponse": true,

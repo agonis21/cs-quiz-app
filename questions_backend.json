@@ -29,5 +29,242 @@
         ],
         "correctMultipleImageChoiceURLOption": "",
         "correctShortResponseAnswer": ""
+    },
+
+
+    {
+        "questionTitle": "What does CRUD stand for in the context of backend development?",
+        "isMultipleChoice": true,
+        "isMultipleImageChoice": false,
+        "isShortResponse": false,
+        "multipleChoiceOptions": [
+            {
+                "option": "Create, Read, Update, Delete"
+            },
+            {
+                "option": "Compile, Run, Update, Debug"
+            },
+            {
+                "option": "Connect, Request, Utilize, Debug"
+            }
+        ],
+        "correctMultipleChoiceOption": "Create, Read, Update, Delete",
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "",
+        "correctShortResponseAnswer": ""
+    },
+
+
+    {
+        "questionTitle": "Which of the following languages is commonly used for server-side scripting in web development?",
+        "isMultipleChoice": true,
+        "isMultipleImageChoice": false,
+        "isShortResponse": false,
+        "multipleChoiceOptions": [
+            {
+                "option": "HTML"
+            },
+            {
+                "option": "JavaScript"
+            }, 
+            {
+                "option": "PHP"
+            }
+        ],
+        "correctMultipleChoiceOption": "PHP",
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "",
+        "correctShortResponseAnswer": ""
+    },
+
+    {
+        "questionTitle": "What is the purpose of a database in backend development?",
+        "isMultipleChoice": true,
+        "isMultipleImageChoice": false,
+        "isShortResponse": false,
+        "multipleChoiceOptions": [
+            {
+                "option": "To style web pages"
+            },
+            {
+                "option": "To manage and store data"
+            },
+            {
+                "option": "To create user interfaces"
+            }
+        ],
+        "correctMultipleChoiceOption": "To manage and store data",
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "",
+        "correctShortResponseAnswer": ""
+    },
+
+    {
+        "questionTitle": "In the context of backend development, what is an API?",
+        "isMultipleChoice": true,
+        "isMultipleImageChoice": false,
+        "isShortResponse": false,
+        "multipleChoiceOptions": [
+            {
+                "option": "Application Programming Interface"
+            },
+            {
+                "option": "Application Programming Interface"
+            },
+            {
+                "option": "Advanced Processing Interface"
+            }
+        ],
+        "correctMultipleChoiceOption": "Application Programming Interface",
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            },
+            {
+                "option": ""
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "",
+        "correctShortResponseAnswer": ""
+    },
+
+    {
+        "questionTitle": "What protocol is commonly used for secure data transmission over the web?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": false,
+        "isShortResponse": true,
+        "correctShortResponseAnswer": "HTTPS"
+    }, 
+
+    {
+        "questionTitle": "Which HTTP status code indicates a successful response in a RESTful API?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": false,
+        "isShortResponse": true,
+        "correctShortResponseAnswer": "200"
+    }, 
+
+
+    {
+        "questionTitle": "Which HTTP method is commonly used to request the creation of a resource in a RESTful API?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": false,
+        "isShortResponse": true,
+        "correctShortResponseAnswer": "POST"
+    }, 
+
+    {
+        "questionTitle": "What is acronym for JavaScript Object Notation?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": false,
+        "isShortResponse": true,
+        "correctShortResponseAnswer": "JSON"
+    }, 
+
+    {
+        "questionTitle": "Which one is the Node.js logo?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": true,
+        "isShortResponse": false,
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": "https://ih1.redbubble.net/image.404031065.2191/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
+            },
+            {
+                "option": "https://www.docker.com/wp-content/uploads/2023/08/logo-dont-spacing.svg"
+            },
+            {
+                "option": "https://ih1.redbubble.net/image.5227224545.3198/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "https://ih1.redbubble.net/image.404031065.2191/st,small,507x507-pad,600x600,f8f8f8.u1.jpg",
+        "correctShortResponseAnswer": ""
+    },
+
+    {
+        "questionTitle": "Which one is the Docker logo?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": true,
+        "isShortResponse": false,
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": "https://ih1.redbubble.net/image.404031065.2191/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
+            },
+            {
+                "option": "https://www.docker.com/wp-content/uploads/2023/08/logo-dont-spacing.svg"
+            },
+            {
+                "option": "https://ih1.redbubble.net/image.5227224545.3198/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "https://www.docker.com/wp-content/uploads/2023/08/logo-dont-spacing.svg",
+        "correctShortResponseAnswer": ""
+    },
+
+    {
+        "questionTitle": "Which one is the Bun logo?",
+        "isMultipleChoice": false,
+        "isMultipleImageChoice": true,
+        "isShortResponse": false,
+        "multipleImageChoiceURLOptions": [
+            {
+                "option": "https://ih1.redbubble.net/image.404031065.2191/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
+            },
+            {
+                "option": "https://www.docker.com/wp-content/uploads/2023/08/logo-dont-spacing.svg"
+            },
+            {
+                "option": "https://ih1.redbubble.net/image.5227224545.3198/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg"
+            }
+        ],
+        "correctMultipleImageChoiceURLOption": "https://ih1.redbubble.net/image.5227224545.3198/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.jpg",
+        "correctShortResponseAnswer": ""
     }
+
+
 ]
